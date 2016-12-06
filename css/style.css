@@ -1,0 +1,69 @@
+a {
+  color: #999;
+}
+
+.btn-secondary-outline-download {
+    color: #fff;
+    background-color: #ccc;
+    border-color: #ccc;
+}
+
+.btn-secondary-outline-contact:focus,
+.btn-secondary-outline-contact:active,
+.btn-secondary-outline-contact:hover,
+.btn-secondary-outline-contact {
+    color: #fff;
+    background-color: #43cea2;
+    border-color: #43cea2;
+}
+
+.category{
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.category-image{
+  margin-bottom: 20px;
+}
+
+.home-jumbo {
+  background: #43cea2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logo {
+  margin-top: 0.5rem;
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.head-concorde {
+	margin: 100px 0px 0px 0px;
+}
+
+.head-about {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.head-about-text {
+  margin-top: 70px;
+}
+
+.section-about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.col-md-9 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.col-md-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}

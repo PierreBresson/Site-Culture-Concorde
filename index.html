@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Culture Concorde: Free Music Player by Not My Fault.</title>
+    <title>Culture Concorde: Discover incredible songs, carefully selected, crafted in a minimalist design.</title>
     <meta name="description" content="Handpicked music" />
-    <meta name="keywords" content="free mac player, music, chill, house, deep house, mixtapes, osx" />
+    <meta name="keywords" content="free music player, free, music, player, chill, house, deep house, mixtapes, macOS, iOS, Android, hip-hop, US" />
     <meta name="author" content="Pierre Bresson" />
     <link rel="stylesheet" href="css/cc.css">
     <link rel="stylesheet" href="css/style.css">
@@ -44,7 +44,7 @@
       <div class="container">
         <h1 class="display-3">Culture Concorde</h1>
         <h2 class="m-b-lg">Discover <em>incredible songs</em>, carefully selected, crafted in a minimalist design.</h2>
-        <a class="btn btn-secondary-outline m-b-md" href="#intro" role="button">Have a look!</a>
+        <a class="btn btn-secondary-outline m-b-md scrollTo" href="#intro" role="button">Have a look!</a>
         <ul class="list-inline social-share">
           <li><a class="nav-link" href="https://twitter.com/CultureConcorde" target="_blank"><span class="icon-twitter"></span></a></li>
         </ul>
@@ -53,7 +53,7 @@
 
     <section id="intro" class="section-intro text-center hidden-overflow">
       <div class="container">
-        <h3>Available for Mac OS X</h3>
+        <h3>Available for macOS</h3>
         <p>Coming soon for iOS and Android, follow us on twitter and we’ll let you know when it’s available.</p>
         <br>
         <img src="img/mock.png" alt="iPad mock" width="700" class="img-responsive center-block">
@@ -67,14 +67,15 @@
           <div class="col-md-4 text-center">
             <h2>Free Download</h2>
             <br>
-            <a class="btn btn-secondary-outline-download m-b-md" href="app.zip" role="button"></span><i class="fa fa-apple"></i>Download App</a>
+            <a class="btn btn-secondary-outline-download m-b-md" href="app.zip" role="button"></span><i class="fa fa-apple"></i>Full Version</a>
+            <a class="btn btn-secondary-outline-download m-b-md" href="https://itunes.apple.com/us/app/culture-concorde/id1088330492?ls=1&mt=12" role="button"></span><i class="fa fa-apple"></i>Mac App Store</a>
           </div>
           <div class="col-md-4">
             <h2 class="text-center">Current features (version 1.0)</h2>
             <br>
             <ul>
               <li><b>4 categories of music</b>: Chillwave, Funky House, Deep & Tech, Mixtape</li>
-              <li>Next/previous songs, play, pause <b>with media keys</b> (F7,F8,F9).</li>
+              <li>Next/previous songs, play, pause <b>with media keys</b> (F7,F8,F9) only in the full version.</li>
               <li>Notification if an update is available</li>
             </ul>
           </div>
@@ -87,6 +88,12 @@
               <li>Add more music & categories</li>
               <li><a href="contact.html">Wanna help?</a></li>
             </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <br>
+            <p>Apple doesn't want any app on the Mac App Store with media keys control, that's why there are two versions.</p>
           </div>
         </div>
       </div>
@@ -166,10 +173,19 @@
         </div>
       </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/soundmanager/soundmanager2-jsmin.js"></script>
     <script src="js/peakPlayer.js"></script>
     <script src="js/script.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('.scrollTo').click( function() { // Au clic sur un élément
+        var page = $(this).attr('href'); // Page cible
+        var speed = 750; // Durée de l'animation (en ms)
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+        return false;
+      });
+    });
+    </script>
   </body>
 </html>

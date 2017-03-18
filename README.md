@@ -4,13 +4,13 @@ Discover incredible songs, carefully selected, crafted in a minimalist design.  
 
 
 
-##Preview ✈️
+## Preview ✈️
 ![alt tag](https://github.com/PierreBresson/Site-Culture-Concorde/blob/master/mac%20app.jpg)
 
 
 
 
-###Features
+### Features
 * 4 categories of music: Chillwave, Funky House, Deep & Tech, Mixtape
 
 * Next/previous songs, play, pause with media keys (F7,F8,F9).
@@ -21,7 +21,7 @@ Discover incredible songs, carefully selected, crafted in a minimalist design.  
 
 
 
-###What Next?
+### What Next?
 * iOS and Android version
 
 * Improve design and create a visual identity

@@ -1,3 +1,5 @@
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P813IQT)
+
 Culture Concorde is no longer being actively maintained.
 
 # Culture Concorde ️🎶
